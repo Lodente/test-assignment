@@ -95,6 +95,8 @@ body {
 
 .header-text {
   margin-left: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 @media (max-width: 1280px) {
