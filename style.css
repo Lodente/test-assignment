@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #f1f3f5;
+}
+
+.header {
+  width: 1280px;
+  margin: auto;
+}
+
+.header-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header-link {
+  margin: auto;
+}
+
+.header-photo {
+  margin: auto;
+  max-width: 125px;
+  max-height: 125px;
+  border-radius: 50%;
+}
+
+.header-buttons {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.header-button {
+  width: 805px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.header-whatsapp {
+  background-color: #55cd6c;
+}
+
+.header-whatsapp:hover {
+  background-color: #70d885;
+}
+
+.header-telegram {
+  background-color: #61a8de;
+}
+
+.header-telegram:hover {
+  background-color: #75b3e2;
+}
+
+.header-instagram {
+  background-color: #f00075;
+}
+
+.header-instagram:hover {
+  background-color: #f1328f;
+}
+
+.header-about {
+  background-color: #7795f8;
+}
+
+.header-about:hover {
+  background-color: #88a1f3;
+}
+
+.header-image {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.header-text {
+  margin-left: 12px;
+}
+
+@media (max-width: 1280px) {
+  .header {
+    width: 700px;
+  }
+  .header-button {
+    max-width: 620px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 580px;
+    width: 95%;
+  }
+  .header-button {
+    width: 95%;
+  }
+}
